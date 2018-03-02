@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>CRUD JS ES6</title>
+	<meta name="description" content="">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+</head>
+
+<body>
+	<div id="buttons">
+		<button class="add action-button" data-event="true" type="submit">
+			ADD +
+		</button>
+		<button class="delete action-button" data-event="true">
+			DELETE
+		</button>
+		<button class="deleteAll action-button" data-event="true">
+			DELETE ALL
+		</button>
+	</div>
+	<form name="inputForm">
+		<input type="text" name="title" placeholder="Title" required="required" value=""><span>Title</span>
+		<input type="text" name="text" placeholder="Text" maxlength="250" required="required" value=""><span>Text</span>
+		<input type="text" name="img" placeholder="Enter file. Example: cat0" required="required" value=""><span>File</span>
+	</form>
+	<div class="container">
+		<section id="card-section"></section>
+	</div>
+
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/ES6.js"></script>
+	<!--<script src="js/scripts.min.js"></script>-->
+</body>
+</html>

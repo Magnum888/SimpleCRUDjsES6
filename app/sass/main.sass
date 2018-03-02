@@ -1,0 +1,95 @@
+@import "fonts"
+@import "libs"
+@import "base"
+@import "vars"
+
+body
+  /*background: url(img/17.svg) no-repeat center center fixed;
+  /*-webkit-background-size: cover;
+  /*-moz-background-size: cover;
+  /*-o-background-size: cover;
+  /*background-size: cover;
+  background: #83a4d4
+  /* fallback for old browsers
+  background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4)
+  /* Chrome 10-25, Safari 5.1-6
+  background: linear-gradient(to right, #b6fbff, #83a4d4)
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
+
+.card
+  display: inline-block
+  margin: 2px 5px 2px 5px
+  width: 200px
+
+form
+  &[name="changeForm"] input
+    width: 194px
+    margin: 0 1px 0 1px
+  &[data-show="false"]
+    display: none
+
+button
+  &.change-btn
+    width: 200px
+    margin: 3px 1px 0 1px
+    background-color: #e74c3c
+  &.save-btn
+    width: 198px
+    margin: 3px 1px 0 1px
+    background-color: #80e680
+    &[data-btn_save="false"]
+      display: none
+  &.change-btn[data-btn_change="false"]
+    display: none
+
+p
+  margin-top: 0
+  margin-bottom: 2px
+  text-align: center
+
+img
+  width: 200px
+  height: 240px
+
+.action-button
+  position: relative
+  padding: 10px 40px
+  margin: 0 10px 10px 0
+  float: left
+  border-radius: 3px
+  font-family: 'Lato', sans-serif
+  font-size: 18px
+  color: #FFF
+  text-decoration: none
+  transition: all 0.1s
+  -webkit-transition: all 0.1s
+  &:active
+    transform: translate(0px, 5px)
+    -webkit-transform: translate(0px, 5px)
+    border-bottom: 1px solid
+
+.add
+  background-color: #5e6f81
+  border-bottom: 5px solid #485563
+  text-shadow: 0px -2px #485563
+
+.delete
+  background-color: #e74c3c
+  border-bottom: 5px solid #c0392b
+  text-shadow: 0px -2px #c0392b
+
+.deleteAll
+  background-color: #f1c40f
+  border-bottom: 5px solid #f39c12
+  text-shadow: 0px -2px #f39c12
+
+#buttons
+  display: flex
+  justify-content: center
+
+
+div [data-check="true"]
+  /* border: 1px solid red;
+  opacity: 0.5
+
+@import "media"
